@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Forensic Drone</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/custom.css') }}" >
+    <link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.ico') }}">
+  </head>
+  <body>
+    <header>
+      <div class="tagline-upper text-center text-heading text-shadow text-black mt-6 d-none d-lg-block">Forensic Drone</div>
+      <div class="tagline-lower text-center text-expanded text-shadow  text-white mb-4 d-none d-lg-block">3152 E. La Palma Ave., Suite D | Anaheim, CA 92806 | 714.238.8888</div>
+    </header>
+
+
+    {% block body %}
+
+    {% endblock %}
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+
+</html>
